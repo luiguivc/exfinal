@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Pepsi</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@400..700&family=Dela+Gothic+One&family=Permanent+Marker&family=Rammetto+One&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chewy&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Pepsi Cola </h1>
+        <nav>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" ><i class="fa-solid fa-house"> </i> Inicio</a></li>
+                    <li><a href="nosotros.html" ><i class="fa-solid fa-person"></i></i> </i> nosotros</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-pencil"> </i> Blog</a></li>
+                    <li><a href="galeria.html"><i class="fa-regular fa-images"> </i> Galeria</a></li>
+                    <li><a href="video.html"><i class="fa-solid fa-video"> </i> Videos</a></li>
+                    <li><a href="contacto.html" ><i class="fa-solid fa-address-book"></i></i> contacto</a></li>
+                    <li><a href="desarrollador.html"><i class="fa-solid fa-laptop-code"></i> Desarrollador</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+
+
+
+
+      <!-- Sección de Contacto -->
+      <section class="contacto">
+        <div class="contacto-header">
+            <h1>Contacto</h1>
+        </div>
+        
+        <!-- Contacto en dos columnas -->
+        <div class="contacto-contenido">
+            <!-- Primera columna: Información de la empresa -->
+            <div class="columna-info">
+                <h2>Información de la Empresa</h2>
+                <table>
+                    <tr>
+                        <th>Dirección</th>
+                        <td>Av. Francisco Bolognesi 594
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Teléfono</th>
+                        <td>+1 800 123 456</td>
+                    </tr>
+                    <tr>
+                        <th>Horario de Atención</th>
+                        <td>Lunes a Viernes, 9:00 AM - 6:00 PM</td>
+                    </tr>
+                </table>
+            </div>
+
+            
+
+            <!-- Segunda columna: Formulario de contacto -->
+            <div class="columna-formulario">
+                <h2>Formulario de Contacto</h2>
+                <form action="" method="POST">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre">
+
+                    <label for="celular">Celular:</label>
+                    <input type="tel" name="celular" placeholder="999999999" size="9" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" name="email" placeholder="usuario@dominio.com">
+
+                    <label for="ruc">*Objetivo</label>
+                    <select name="opciones">
+                        <option value="elogio">elogio</option>
+                        <option value="informacion">informacion sobre nuestros produtos</option>
+                        <option value="insatisfecho">insatisfecho con un producto</option>
+                        <option value="otros">otros</option>
+                        <option value="pregunta" selected>pregunta / consulte sobre una informacion  </option>           
+                    </select>
+
+                    <label for="mensaje">*Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Si no estás satisfecho con alguno de nuestros productos, te rogamos que conserves el producto con su embalaje hasta que nos hayamos puesto en contacto contigo." size="500" required></textarea> 
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+
+   
+        <div class="mapa">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4683536522823!2d-76.97152333042895!3d-12.052229587717585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c66463675d2f%3A0x1bcc9b5197f4cde1!2sAv.%20Francisco%20Bolognesi%20594%2C%20Santa%20Anita%2015008!5e0!3m2!1ses-419!2spe!4v1731554634049!5m2!1ses-419!2spe" width="1200" height="800" style="border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    
+    
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-icons">
+            <ul class="redes">
+                <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></a></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-tiktok"></i></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Pepsi.com</p>
+    </footer>
+</body>
+</html>

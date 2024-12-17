@@ -1,0 +1,181 @@
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-laptop-code highlight"></i> Mi Portafolio
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <h1 class="display-3">Hola, soy <span class="highlight">Edgar David</span></h1>
+    <p class="lead">Desarrollo sitios web y escribo artículos sobre programación.</p>
+</header>
+
+<!-- Sobre Mí -->
+<section id="about" class="about-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/tu-foto.jpg" alt="Foto personal" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
+            </div>
+            <div class="col-md-8">
+                <h2>Conoce a <span class="highlight">Edgar David</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Desarrollador apasionado de nuevas tecnologías y soluciones web.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experiencia -->
+<section id="experience" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Experiencia</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 card-hover">
+                    <i class="fas fa-code fa-3x mb-3 highlight"></i>
+                    <h5>Desarrollo Web</h5>
+                    <p>HTML, CSS, JavaScript, React</p>
+                    <button class="btn btn-outline-dark">Más Info</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 card-hover">
+                    <i class="fas fa-pencil-alt fa-3x mb-3 highlight"></i>
+                    <h5>Artículos</h5>
+                    <p>Escribo sobre tecnologías y mejores prácticas.</p>
+                    <button class="btn btn-outline-dark">Ver Artículos</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 card-hover">
+                    <i class="fas fa-graduation-cap fa-3x mb-3 highlight"></i>
+                    <h5>Estudiante</h5>
+                    <p>Capacitación continua en tecnologías emergentes.</p>
+                    <button class="btn btn-outline-dark">Más Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Proyectos -->
+<section id="projects" class="py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Mis Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="img/proyecto1.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/proyecto2.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/proyecto3.jpg" class="img-fluid rounded">
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary">Ver Más</a>
+    </div>
+</section>
+
+<!-- Testimonios -->
+<section id="testimonials" class="py-5 bg-light text-center">
+    <div class="container">
+        <h2>Testimonios</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>"Excelente profesional, atento a los detalles."</p>
+                    <small>- Cliente 1</small>
+                </div>
+                <div class="carousel-item">
+                    <p>"Entregó mi proyecto a tiempo y con alta calidad."</p>
+                    <small>- Cliente 2</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Creado por Edgar David © 2024</p>
+    <div class="footer-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<style>
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #181818;
+    color: #fff;
+}
+.highlight {
+    color: #ff4b5c;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('img/hero.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+
+
+
+/* Sobre mí */
+.about-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background-color: #181818;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.footer-icons a:hover {
+    color: #ff4b5c;
+}
+
+</style>

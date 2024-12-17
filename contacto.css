@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alfa Slab One", serif;
+    margin: 0;
+    padding: 0; 
+    color: black;
+}
+
+
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    color: blue;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: "Rammetto One", sans-serif;   
+    /*posicionamiento*/
+    position: sticky;
+    top: 2px;
+    z-index: 50;
+    background-color: black;
+}
+    
+
+header h1 {
+    font-weight: 400;
+    font-family: "Rammetto One", sans-serif;
+    font-size: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.menu li a:hover {
+    color: red; 
+    transition: all 400ms ease-in;
+}
+
+
+
+
+
+/* Sección de Contacto */
+.contacto {
+    padding: 20px;
+    background-color: black;
+}
+
+.contacto-header {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: "Chewy", system-ui;
+
+}
+
+.contacto-header h1 {
+    font-size: 2em;
+    font-family: "Chewy", system-ui;
+}
+
+/* columnas */
+.contacto-contenido {
+    display: flex;
+    justify-content: space-between; /* Alinea las columnas a lo largo de la fila */
+    gap: 400px;
+    margin-top: 40px;
+}
+
+
+
+
+/* columna 1*/
+.columna-info {
+    flex: 1; /* Toma el mismo ancho que la otra columna */
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black(0, 0, 0, 0.1);
+    color: white;
+}
+
+
+td,th{
+    border:1px solid white;
+    padding:5px;
+}
+th{
+    background-color: black;
+}
+
+
+.columna-info p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+
+
+/* columna 2*/
+.columna-formulario {
+    flex: 1; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Rammetto One", sans-serif;
+}
+.columna-formulario form {
+    display: grid;
+    gap: 15px;
+}
+
+.columna-formulario label {
+    font-size: 1.1em;
+}
+
+.columna-formulario input, 
+.columna-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF001E;
+    border-radius: 5px;
+    background-color: #111;
+    color: white;
+}
+
+.columna-formulario button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.columna-formulario button:hover {
+    background-color: #1100ff;
+}
+
+
+
+
+/* Mapa de Google */
+.mapa{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+.mapa iframe {
+    border: 1cap solid blue;
+    width: 100%;
+    width: 1200px;
+    height: 600px;
+    
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid #e0e0e0;
+    background-color: black;
+}
+
+.redes {
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 30px; 
+    gap: 50px; 
+}
+
+.redes li i {
+    font-size: 35px; 
+    color: blue; 
+    transition: color 0.3s; 
+}
+
+.redes li i:hover {
+    color: red; 
+}

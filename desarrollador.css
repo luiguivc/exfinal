@@ -1,0 +1,76 @@
+/* Estilos personalizados */
+.navbar {
+    background: rgb(252, 193, 30); 
+    padding: 37px;
+    font-family: "Rammetto One", sans-serif;
+    
+ }
+
+ h2{
+    font-family: "Rammetto One", sans-serif;
+ }
+
+.nav-link {
+    font-size: 1.1rem;
+    color: black !important;
+    transition: color 0.3s;
+    font-family: "Chewy", system-ui;
+
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+
+
+#sobre-mi{ 
+    background: rgb(1, 52, 94);
+    
+}
+
+
+.proyecto-container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.projecto-img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.projecto-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+
+
+
+footer {
+    background: #222;
+}
+
+
+
+
+
